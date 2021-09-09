@@ -1,5 +1,5 @@
 body{
-  background-image: url("https://images.unsplash.com/photo-1550710901-bb7411e532b3?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80"); 
+  background-image: url("https://images.unsplash.com/photo-1581994574720-f60299904853?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"); 
   opacity: 0.9; 
   background-repeat: none; 
   height:100%; 
@@ -9,7 +9,7 @@ body{
 @import url('https://fonts.googleapis.com/css?family=Codystar:300&display=swap');
 
 .main .header{
-  margin: 0;
+  margin:10px;
   font-size: 8em;
   padding: 0;
   color: white;
@@ -17,5 +17,58 @@ body{
     0.05em 0.005em 0 rgb(187, 17, 150), 0em 0.08em 0 rgb(190, 18, 224),
     0.05em 0.08em 0 rgb(164, 32, 190), 0px -0.03em 0 rgb(230, 180, 236),
     -0.03em -0.03em 0 rgba(230, 180, 236), -0.03em 0.08em 0 rgb(232, 169, 238), -0.03em 0 0 rgba(230, 180, 236);
+}
 
+.card{
+  background-color: bisque;
+  opacity:.8; 
+}
+
+body h2{
+  color:blueviolet; 
+}
+
+.single{
+  background-color: bisque;
+  opacity:.8; 
+  display:flex; 
+  justify-content:space-around; 
+  flex-direction:column; 
+  padding: 10px; 
+}
+
+.single h1{
+  color:blueviolet; 
+}
+
+.single button{
+  width:200px; 
+  margin: 0 auto; 
+  margin-top:10px;
+}
+
+.form{
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.form input[type=text] {
+  background-color: bisque;
+  color:black;
+}
+
+.form label{ 
+  color:black; 
+  text-align:left;
+}
+
+.form .submit{
+  margin: 0 auto; 
+}
+
+.add{
+  font-size: 20px;
+  margin:30px; 
 }

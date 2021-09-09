@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-//destructure the post from props
 const Course = ({ course }) => {
   const div = {
     textAlign: "center",
@@ -11,7 +10,7 @@ const Course = ({ course }) => {
   };
 
   return (
-    <div style={div}>
+    <div className="card" style={div}>
       <Link to={`/class/${course.id}`}>
       <h1>{course.title}</h1>
       </Link>

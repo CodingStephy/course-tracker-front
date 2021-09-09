@@ -17,7 +17,7 @@ const SingleCourse = ({courses, match,edit,deleteCourse }) => {
   };
 
   return (
-    <div style={div}>
+    <div className ="single" style={div}>
       <h1>{course?.title}</h1>
       <h2>{course?.platform}</h2>
       <h2>{course?.length}</h2>

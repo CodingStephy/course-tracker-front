@@ -105,7 +105,7 @@ function App(props) {
   return (
     <div className="main">
       <h1 className="header" style={h1}>My Course Tracker</h1>
-      <Link to="/new"><button style={button}>Add another course</button></Link>
+      <Link to="/new"><button className= "add" style={button}>Add another course</button></Link>
       <Switch>
         <Route
           exact

@@ -30,7 +30,7 @@ const Form = ({ initialCourse, handleSubmit, buttonLabel, history }) => {
 
   // Our Form, an input for the subject and details fields and a submit button
   return (
-    <form onSubmit={handleSubmisson}>
+    <form className="form" onSubmit={handleSubmisson}>
       <label>Title</label>
       <input
         type="text"
@@ -52,7 +52,7 @@ const Form = ({ initialCourse, handleSubmit, buttonLabel, history }) => {
         value={formData.length}
         name="length"
       />
-      <input type="submit" value={buttonLabel} />
+      <input className="submit" type="submit" value={buttonLabel} />
     </form>
   );
 };
